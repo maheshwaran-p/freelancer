@@ -1,0 +1,331 @@
+
+body {
+  /*   background-color: green; */
+    border: 5px solid rgb(199, 69, 69);
+    
+    margin: 58;
+    padding-left: 50;
+    padding-right: 50;
+
+}
+@media screen and (min-width: 480px) {
+    img.center {
+        width: 10%;
+        height: 69;
+        float: center;
+        display: block;
+        margin: 0 auto;
+        float: left;
+
+    }
+
+    /* // #main {margin-left: 216px;} */
+}
+
+
+@media screen and (max-width: 480px) {
+    img.center {
+        width: 8%;
+        height: 59;
+        float: left;
+
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    /* // #main {margin-left: 216px;} */
+}
+
+.a {
+
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: blue;
+}
+
+.b {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: red;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+
+@media screen and (min-width: 480px) {
+    .header {
+        /* //height: 80px; */
+        padding-left: 15%;
+        padding-right: 10%;
+        width: 100%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        left: 15%;
+        right: 1%;
+        bottom: 0;
+        margin: 0;
+        /* float: left; */
+        text-align: center;
+        background: rgba(97, 4, 141, 1);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        /* //height: 80px; */
+
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+        text-align: center;
+        background: rgba(97, 4, 141, 1);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid white10;
+    border-radius: 7px;
+}
+
+@media screen and (min-width: 480px) {
+    .header {
+        /* //height: 80px; */
+        padding-left: 15%;
+        padding-right: 10%;
+        width: 75%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        left: 15%;
+        right: 15%;
+        bottom: 0;
+        margin: 0;
+        /* float: left; */
+        text-align: center;
+        background: rgba(97, 4, 141, 1);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.consent {
+
+    /* padding-right: 20; */
+    /* padding: auto; */
+     /* padding-top: 400px; */
+text-align: bottom; 
+    float: left;
+}
+
+@media screen and (min-width: 480px) {
+    input[type=text] {
+        width: 50%;
+        padding: 10px 10px;
+        margin: 2px 0;
+        box-sizing: border-box;
+        border: 2px solid white10;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    input[type=text] {
+        width: 75%;
+        padding: 10px 10px;
+        margin: 2px 0;
+        box-sizing: border-box;
+        border: 2px solid white10;
+        border-radius: 7px;
+    }
+}
+
+#lastname{
+width: 25%;
+                padding: 10px 10px;
+                margin: 2px 0;
+                box-sizing: border-box;
+                border: 2px solid white10;
+                border-radius: 7px;}
+
+#firstname{
+                width: 25%;
+                padding: 10px 10px;
+                margin: 2px 0;
+                box-sizing: border-box;
+                border: 2px solid white10;
+                border-radius: 7px;}
+#part2fname{
+    width: 25%;
+    padding: 10px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid white10;
+    border-radius: 7px;
+
+}
+
+#part2lname{
+   
+    width: 25%;
+    padding: 10px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid white10;
+    border-radius: 7px;
+
+
+}
+
+input[type=submit] {
+    background-color: rgb(114, 240, 114);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    width: 330;
+    cursor: pointer;
+    text-align: center;
+    background: rgb(20, 141, 4);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+    .inp-icon{
+        background: url(https://mahesh.newsled.in/search.png)no-repeat 100%;
+        background-size: 18px;
+        padding-right: 30px;
+        }
+    #search{
+
+        width: 10%;
+        padding: 10px 10px;
+        margin: 2px 0;
+        box-sizing: border-box;
+    
+        border: 2px solid white10;
+        border-radius: 7px;
+    }
+
+.mail:after {
+    content: " *";
+    color: red;
+
+}
+
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+
+
+.select2{
+
+width: 25%;
+    padding: 10px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 2px solid white10;
+    border-radius: 7px;
+}
+
+#demo{
+
+    float:right ;padding-right: 94px;
+}
+
+#demo2{
+    float:right  ; padding-right: 80px;
+
+}
+
